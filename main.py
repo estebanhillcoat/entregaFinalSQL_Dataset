@@ -46,7 +46,7 @@ while True:                       # Bucle principal del programa
 
             # Comprueba si encontró un resultado
             if existe:
-                print(f"Se encontó {nombreBuscar}")
+                print(f"Se encontró {nombreBuscar}")
             else:
                 print(f"*** NO se encontró {nombreBuscar} ***")
 
@@ -58,7 +58,7 @@ while True:                       # Bucle principal del programa
             tabla.delete(Nombre=borrarNombre)
 
             # Mensaje de confirmación
-            print(borrarNombre + " Borrado con exito!\n")
+            print(borrarNombre + " Borrado con éxito!\n")
 
         case "I":
             # Solicita el ID a eliminar y lo convierte a entero
@@ -68,7 +68,7 @@ while True:                       # Bucle principal del programa
             tabla.delete(id=borrarPorID)
 
             # Mensaje de confirmación
-            print(f'{borrarPorID} fué borrado con exito!!')
+            print(f'{borrarPorID} fue borrado con éxito!!')
 
         case "L":
             # Recorre todos los registros de la tabla
@@ -95,4 +95,4 @@ while True:                       # Bucle principal del programa
             })
 
 
-Observación: find() puede devolver varios registros, mientras que find_one() devuelve solamente el primero que encuentre. Por eso en "G" usás un for, pero en "B" no hace falta.
+# Observación: find() puede devolver varios registros, mientras que find_one() devuelve solamente el primero que encuentre. Por eso en "G" usás un for, pero en "B" no hace falta.
